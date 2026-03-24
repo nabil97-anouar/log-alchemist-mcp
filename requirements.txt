@@ -1,1 +1,7 @@
--r log-alchemist-mcp/requirements.txt
+gradio[mcp]
+mcp
+fastmcp
+huggingface_hub>=0.35
+python-dotenv
+pytesseract
+pillow
