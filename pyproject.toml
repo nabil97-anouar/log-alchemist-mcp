@@ -1,0 +1,15 @@
+[project]
+name = "log-alchemist-mcp"
+version = "0.1.0"
+description = "MCP-native agentic HPC incident response assistant with deterministic analysis, incident memory, and optional LLM remediation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp",
+    "gradio[mcp]",
+    "huggingface_hub>=0.35",
+    "mcp",
+    "pillow",
+    "python-dotenv",
+    "pytesseract",
+]

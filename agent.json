@@ -1,0 +1,12 @@
+{
+  "name": "log-alchemist-agent",
+  "description": "Tiny Agent for Log Alchemist — Agentic Incident Response for HPC.",
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "servers": [
+    {
+      "type": "stdio",
+      "command": "python",
+      "args": ["log-alchemist-mcp/mcp_server.py"]
+    }
+  ]
+}

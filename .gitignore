@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.DS_Store
+
+# Virtual environments
+.venv
+log-alchemist-mcp/.venv
+mcp-env/
+
+# Local editor / IDE config
+.vscode/
+.continue/models/
+.python-version
+
+# Secrets / local env
+.env
+*.env
+log-alchemist-mcp/.env
+log-alchemist-mcp/.incident_memory.jsonl
+log-alchemist-mcp/.incident_sessions/

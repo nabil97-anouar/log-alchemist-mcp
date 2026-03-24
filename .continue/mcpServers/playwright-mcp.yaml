@@ -1,0 +1,8 @@
+name: Playwright Scout MCP
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: playwright_scout
+    command: npx
+    args:
+      - "@playwright/mcp@latest"

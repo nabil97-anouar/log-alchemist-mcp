@@ -1,0 +1,13 @@
+{
+  "name": "log-alchemist-local-agent",
+  "description": "Tiny Agent for Log Alchemist — Agentic Incident Response for HPC, connected directly to the local FastMCP server over stdio.",
+  "model": "Qwen/Qwen2.5-72B-Instruct",
+  "provider": "nebius",
+  "servers": [
+    {
+      "type": "stdio",
+      "command": "python",
+      "args": ["mcp_server.py"]
+    }
+  ]
+}

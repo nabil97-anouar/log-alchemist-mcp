@@ -1,0 +1,10 @@
+name: Log Alchemist MCP
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: log_alchemist
+    transport:
+      type: stdio
+      command: python
+      args:
+        - log-alchemist-mcp/mcp_server.py

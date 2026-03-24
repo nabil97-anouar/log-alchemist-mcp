@@ -1,0 +1,21 @@
+{
+  "name": "log-alchemist-private-local-agent",
+  "description": "Tiny Agent for private local agentic HPC incident response using a local OpenAI-compatible model endpoint, Desktop Commander for local files, and the Log Alchemist FastMCP server.",
+  "model": "Qwen3-8B-GGUF",
+  "endpointUrl": "http://localhost:8000/api/",
+  "servers": [
+    {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander"
+      ]
+    },
+    {
+      "type": "stdio",
+      "command": "python",
+      "args": ["mcp_server.py"]
+    }
+  ]
+}
